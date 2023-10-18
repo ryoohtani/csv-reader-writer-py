@@ -19,7 +19,7 @@ docker compose up -d
 ```
 * コンテナにアクセス(python-csvはコンテナ名)
 ```
-docker exec -it python-csv /bash
+docker exec -it python-csv bash
 ```
 
 *Pythonのコマンド*
