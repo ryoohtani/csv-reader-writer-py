@@ -11,15 +11,15 @@
 
 * ビルドコマンド
 ```
-docker-compose build
+docker compose build
 ```
 * 環境の立ち上げ
 ```
-docker-compose up -d
+docker compose up -d
 ```
 * コンテナにアクセス(python-csvはコンテナ名)
 ```
-docker exec -it python-csv /bin/bash
+docker exec -it python-csv /bash
 ```
 
 *Pythonのコマンド*
